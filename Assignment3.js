@@ -35,6 +35,7 @@ if(input==="divide"){
 }
 /*2. Write a program to display following output as shown in figure
 
+
 1
 2 3
 4 5 6
@@ -70,6 +71,7 @@ for(let i=1;i<=4;i++){
 }
 
 console.log(str) ;
+
 /*let str="" ;
 for(let i=1;i<=4;i++){
   
