@@ -1,5 +1,5 @@
 //1. Write a program to perform functionality of a calculator (add,sub,multiply,divide)
-/*let input =prompt("please enter the name of operation for calculator : ") ;
+let input =prompt("please enter the name of operation for calculator : ") ;
 if(input==="add"){
 
     let a=parseInt(prompt("Enter the first Number :")) ;
@@ -32,7 +32,7 @@ if(input==="divide"){
     else{
     console.log(`divide of number ${a} and ${b} is ${a/b}`) ;}
 
-}*/
+}
 /*2. Write a program to display following output as shown in figure
 
 1
@@ -59,7 +59,7 @@ if(input==="divide"){
 
 */
 
-/*let str="" ;
+let str="" ;
 for(let i=1;i<=4;i++){
   
     for(let j=1;j<=i;j++){
@@ -69,7 +69,7 @@ for(let i=1;i<=4;i++){
     str+="\n" ;
 }
 
-console.log(str) ;*/
+console.log(str) ;
 /*let str="" ;
 for(let i=1;i<=4;i++){
   
@@ -81,7 +81,7 @@ for(let i=1;i<=4;i++){
 }
 
 console.log(str) ;*/
-/*let str="" ;
+let str="" ;
 
 for(let i=1;i<=10;i++){
 if(i<=5){
@@ -102,7 +102,7 @@ if(i<=5){
 
 }
 
-console.log(str) ;*/
+console.log(str) ;
 /*
 3. Write a program to display Diamond Pattern
 
@@ -116,7 +116,7 @@ console.log(str) ;*/
      *  *
        *  
     */
-/*let str="" ;
+let str="" ;
 for (let i = 1; i <= 5; i++) {
   
   for (let j = 1; j <= 5 - i; j++) {
@@ -142,11 +142,11 @@ for (let i = 1; i <= 5- 1; i++) {
   str+="\n" ;
 }
 
-console.log(str) ;*/
+console.log(str) ;
 
 //4. Write a program to print all even number first and then all odd numbers
 
- /*let n = parseInt(prompt("Enter the size of the array"));
+ let n = parseInt(prompt("Enter the size of the array"));
  let arr = new Array() ;
  for(let i=0;i<n;i++){
     let a=parseInt(prompt(`Enter the ${i} th Element of an Array`)) ;
@@ -164,9 +164,9 @@ console.log(str) ;*/
     }
  }
 
-console.log(str) ;*/
+console.log(str) ;
 //5. Write a program to print all even number first and then all odd numbers using only one iteration
-/*let n = parseInt(prompt("Enter the size of the array"));
+let n = parseInt(prompt("Enter the size of the array"));
  let arr = new Array() ;
  for(let i=0;i<n;i++){
     let a=parseInt(prompt(`Enter the ${i} th Element of an Array`)) ;
@@ -185,9 +185,9 @@ let str2="" ;
     
  }
 
-console.log(str1+str2) ;*/
+console.log(str1+str2) ;
 //6. Write a program to display prime numbers from 1 to 50
-/*let str="" ;
+let str="" ;
 for(let i=2;i<=50;i++){
     let flag=true ;
     for(let j=2;j<=Math.sqrt(i);j++){
@@ -201,20 +201,20 @@ for(let i=2;i<=50;i++){
     }
 }
 
-console.log(str) ;*/
+console.log(str) ;
 
 //7. Write a program to display the twice of a number starting from 2 and end at 4096 (2, 4, 8, 16, ..... 4096)
 
-/*let i=2 ;
+let i=2 ;
 let str="" ;
 while(i<=4096){
     str+=i+" " ;
     i*=2 ;
 }
-console.log(str) ;*/
+console.log(str) ;
 
 //8. Write a program to dispaly number from 1-20 using all types of loops
-/*
+
 let ans="" ;
 let i=1 ;
 for(i=1;i<=20;i++){
@@ -238,10 +238,10 @@ function fun(item){
     str+=item ;
 }
 console.log(str) ;
-*/
+
 //9. Write a program to print fibonaaci series
 
-/*const number = parseInt(prompt('Enter the number of terms: '));
+const number = parseInt(prompt('Enter the number of terms: '));
 let n1 = 0, n2 = 1, nextTerm;
 
 console.log('Fibonacci Series:');
@@ -252,7 +252,7 @@ for (let i = 1; i <= number; i++) {
     n1 = n2;
     n2 = nextTerm;
 }
-console.log(str) ; */
+console.log(str) ; 
 
 
 
