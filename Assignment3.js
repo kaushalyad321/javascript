@@ -106,6 +106,7 @@ if(i<=5){
 
 console.log(str) ;
 /*
+
 3. Write a program to display Diamond Pattern
 
         *
