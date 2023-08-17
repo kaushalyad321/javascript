@@ -1,10 +1,10 @@
 //1. Write a program to perform functionality of a calculator (add,sub,multiply,divide)
-let input =prompt("please enter the name of operation for calculator : ") ;
+let input =prompt("please enter the name of operation for calculator : ") ;// taking user input that what types of opearation they want to perform
 if(input==="add"){
 
-    let a=parseInt(prompt("Enter the first Number :")) ;
-    let b=parseInt(prompt("Enter the second Number :")) ;
-    console.log(`sum of number ${a} and ${b} is ${a+b}`) ;
+    let a=parseInt(prompt("Enter the first Number :")) ;// taking user input as a number
+    let b=parseInt(prompt("Enter the second Number :")) ;//taking user input as a number
+    console.log(`sum of number ${a} and ${b} is ${a+b}`) ; 
 
 
 }
@@ -158,16 +158,16 @@ console.log(str) ;
  let str ="" ;
  for(let i=0;i<n;i++){
     if(arr[i]%2===0){
-        str+=arr[i]+" " ;
+        str+=arr[i]+" " ;//if number is even then add to string str
     }
  }
  for(let i=0;i<n;i++){
     if(arr[i]%2!=0){
-        str+=arr[i]+" " ;
+        str+=arr[i]+" " ;// if number is odd then add to string str
     }
  }
 
-console.log(str) ;
+console.log(str) ;//displaying the output string
 //5. Write a program to print all even number first and then all odd numbers using only one iteration
 let n = parseInt(prompt("Enter the size of the array"));
  let arr = new Array() ;
@@ -179,10 +179,10 @@ let str1 ="" ;
 let str2="" ;
  for(let i=0;i<n;i++){
     if(arr[i]%2===0){
-        str1+=arr[i]+" " ;
+        str1+=arr[i]+" " ;//adding even number to str1
     }
     else{
-        str2+=arr[i]+" ";
+        str2+=arr[i]+" ";//adding odd number to str2
     }
 
     
@@ -212,7 +212,7 @@ let i=2 ;
 let str="" ;
 while(i<=4096){
     str+=i+" " ;
-    i*=2 ;
+    i*=2 ;//multiplying the number every time by 2
 }
 console.log(str) ;
 
@@ -251,9 +251,9 @@ console.log('Fibonacci Series:');
 let str="" ;
 for (let i = 1; i <= number; i++) {
     str+=n1+" " ;
-    nextTerm = n1 + n2;
-    n1 = n2;
-    n2 = nextTerm;
+    nextTerm = n1 + n2;// updating the nextTerm
+    n1 = n2;// updating n1
+    n2 = nextTerm;// updating n2
 }
 console.log(str) ; 
 
