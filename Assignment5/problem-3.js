@@ -125,6 +125,7 @@ let arrOfObj=[
         id:9
 
     }
+    
 
 ] ;
 //iterating array of object and each object where id is present removing

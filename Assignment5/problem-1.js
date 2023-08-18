@@ -1,5 +1,6 @@
 // 1. Write a program to iterate over object.
 const obj={
+    
     name:"Kaushal Kumar Yadav",
     mobileNo :8797196867,
     fatherName :"Tribhuvan Yadav",

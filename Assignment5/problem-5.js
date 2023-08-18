@@ -31,6 +31,7 @@ function flattenObject(nestedObject){
                 result[i] = nestedObject[i];
 
             }
+            
     };
 
     return result; // resulting new flatten object
