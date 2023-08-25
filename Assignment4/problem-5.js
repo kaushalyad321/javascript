@@ -1,5 +1,6 @@
 // 5. Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
 let str = prompt("Enter String Input: ") ;
+//str="abs---- abd _ _ _ _ ans" ;
 function toCamelCase(str){
     let newStr = "";
     if(str){
@@ -12,10 +13,10 @@ function toCamelCase(str){
         }
       }
     }else{
-      return newStr ;
+      return newStr
     }
     return newStr;
   }
 
-  let ans = toCamelCase(str) ;
+  let ans =toCamelCase(str) ;
   console.log(ans) ;
